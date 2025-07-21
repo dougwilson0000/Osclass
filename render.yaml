@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: osclass-site
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
